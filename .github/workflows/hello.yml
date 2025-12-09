@@ -4,9 +4,9 @@ name: Hello World Workflow
 # Events that trigger this workflow
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master, staging]
+    branches: [main, staging]
 
 # Jobs to run
 jobs:
